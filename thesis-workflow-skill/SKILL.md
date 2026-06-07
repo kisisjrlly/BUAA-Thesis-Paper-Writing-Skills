@@ -16,7 +16,7 @@ Classify the user's request into one primary mode:
 | Environment | Prepare a thesis workspace or toolchain | `workflows/Skill_01_Environment_Setup.md` |
 | Extraction | Parse prior paper sources into reusable assets | `workflows/Skill_02_Asset_Extraction.md`, `scripts/extract_latex_assets.py` |
 | Drafting | Write or expand a thesis chapter | `workflows/Skill_03_Thesis_Drafting.md`, relevant `patterns/*` |
-| Polish/Review | Diagnose or rewrite existing Chinese thesis text | `references/buaa-format-authority.md`, `references/thesis-polish-protocol.md`, `patterns/meta-rules.md`, relevant `patterns/patterns-*.md` |
+| Polish/Review | Diagnose or rewrite existing Chinese thesis text, including figure-format review | `references/buaa-format-authority.md`, `references/thesis-polish-protocol.md`, `patterns/meta-rules.md`, relevant `patterns/patterns-*.md` |
 | Slides | Produce defense slides from a finished thesis | `workflows/Skill_04_Presentation_Gen.md` |
 
 If the mode is clear from files or wording, proceed. Ask only for missing thesis-specific inputs that cannot be inferred safely, such as source paper paths, target chapter, template path, or reference thesis path.
@@ -61,7 +61,7 @@ Load `patterns/meta-rules.md` for all writing or review tasks. Add only the modu
 | General Chinese prose | `patterns-vocabulary.md`, `patterns-syntax.md` |
 | Abstract, introduction, conclusion, chapter titles | `patterns-structure.md` |
 | Method, derivation, theorem, proof, assumptions | `patterns-math.md` |
-| Experiments, tables, figures, captions | `patterns-layout.md` |
+| Experiments, tables, figures, captions, final-PDF figure review | `patterns-layout.md` |
 | LaTeX source editing or BUAA template work | `references/buaa-format-authority.md`, `patterns-latex.md` |
 | Reference-thesis alignment | `<active-thesis-root>/.thesis-workflow/reference-thesis.md`; then read `<active-thesis-root>/.thesis-workflow/reference-thesis-fingerprint.md` if it exists |
 
