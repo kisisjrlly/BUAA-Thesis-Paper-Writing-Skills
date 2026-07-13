@@ -104,6 +104,8 @@ Read `references/buaa-format-authority.md` and `references/thesis-polish-protoco
 
 Use the protocol's reference-thesis mechanism from `.thesis-workflow/` when the user provides or has configured a style reference, but only for prose style. For `.tex`, do not alter math environments, citation keys, labels, BUAA template macros, or formatting conventions unless the issue is specifically about LaTeX repair.
 
+When polishing Chinese dissertation prose, remove unnecessary quotation marks around ordinary terms, short question phrases, method-route summaries, and emphasis phrases. Keep quotation marks only for direct quotations, source wording, formal titles, or a concept that is explicitly being defined.
+
 ### Slides
 
 Follow `workflows/Skill_04_Presentation_Gen.md`. Convert the thesis into a defense narrative: problem, method, evidence, conclusion. Reuse thesis figures only after checking paths and readability.
@@ -114,6 +116,7 @@ Before finishing a substantial task, verify the relevant gates:
 
 - `provenance`: major claims map to assets, citations, experiments, or user-provided facts;
 - `style`: output passes deletion test and reference-thesis test from `patterns/meta-rules.md`;
+- `quote-discipline`: ordinary terms and emphasis phrases are not wrapped in quotation marks unless the marks carry necessary source, title, or definition semantics;
 - `format`: BUAA LaTeX 4.1.0 and bundled BUAA writing/template requirements override imported polish or generic formatting rules;
 - `latex`: edited sources compile or the remaining compile blocker is clearly reported;
 - `scope`: only the requested chapter/section/files were changed;
